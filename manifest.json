@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Odds to Percentage Converter",
+  "version": "1.0",
+  "description": "Convert fractional odds to percentage probabilities on Oddschecker Politics pages.",
+  "permissions": ["activeTab"],
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.oddschecker.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

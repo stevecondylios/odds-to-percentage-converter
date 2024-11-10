@@ -46,4 +46,4 @@ Also available as a Tamper Monkey script: <a href="scripts/tm-odds-to-percentage
 
 - <a href="https://www.oddschecker.com/politics/british-politics">British Politics</a>
 
-
+- <a href="https://www.oddschecker.com/politics/australian-politics">Australian Politics</a>
